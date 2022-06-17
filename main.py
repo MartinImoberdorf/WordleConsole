@@ -43,8 +43,10 @@ def main():
 
     #LOGICA
     while palabraAIngresar!=palabra:
+            if palabraAIngresar==palabra:
+                break
             if intentos==5:
-                    break
+                break
 
             while len(palabraAIngresar)!=len(palabra) or palabraAIngresar.isnumeric():
                     print(chr(27)+"[1;31m" + "Error superó el máximo de caracteres...")
@@ -91,8 +93,8 @@ def main():
         print(chr(27)+"[1;37m" + "")
 
 
-    out=int(input("Escriba 1 para volver a jugar..."))
-    if out==1:
+    out=input("Escriba 1 para volver a jugar...")
+    if out=="1":
         os.system("cls")
         main()
     else:
