@@ -1,7 +1,16 @@
 # WordleConsole
 
+Wordle is a console game implemented in Python where you have to guess a secret word within a limited number of attempts. The objective is to uncover the hidden word by guessing individual letters and receiving feedback on whether the guessed letters are in the correct position or not.
 
-🟧 This script is logic and wordle game but in console form.
+The Python implementation I provided is a basic version of the Wordle game in the console. In the code, a word is randomly selected from a predefined list, and the player needs to guess letters. The current state of the game, including the hidden word with underscores for the yet-to-be-guessed letters and the remaining attempts, is displayed.
+
+The player enters a letter, and the program checks if it is in the secret word. If it is, all occurrences of the letter in the hidden word are revealed. If the letter is not in the secret word, the remaining attempts are decreased. The game continues until the player guesses all the letters or runs out of attempts.
+
+The goal is to guess the secret word before running out of attempts. You can customize the list of words to make the game more interesting.
+
+Keep in mind that this is a basic implementation, and additional features can be added, such as displaying the already guessed letters or allowing the player to enter the complete word instead of one letter at a time.
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 
 
